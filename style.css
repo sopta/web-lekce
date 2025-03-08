@@ -1,0 +1,48 @@
+body {
+    background-color: #F2F2F2;
+    font-size: calc(16px + 0.390625vw);
+}
+
+h1 {
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #F2F2F2;
+    margin: 0;
+}
+
+section {
+    background-color: #73706C;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+section p {
+    color:  #F2F2F2;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: "\1F47E"; 
+    display: inline-block; /* Makes the <ul> behave like an inline-block element */
+    margin: auto;
+    margin: 40px;
+}
+
+ul li a {
+    color: #732F20;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
